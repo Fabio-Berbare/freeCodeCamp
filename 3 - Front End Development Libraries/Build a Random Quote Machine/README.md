@@ -1,3 +1,9 @@
+### PS:
+# `node_modules` folder not included.
+
+If you want to install `node_modules`, please run `npx create-react-app .`.
+After that, you can use the `npm start`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
