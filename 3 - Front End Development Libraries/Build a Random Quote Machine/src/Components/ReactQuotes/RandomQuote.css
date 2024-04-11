@@ -1,0 +1,62 @@
+.wrapper {
+    display: flow-root;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 15vh;
+    background: darkgray;
+    width: auto;
+    max-width: 75%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.quote {
+    color: rgb(41, 40, 40);
+    font-size: 35px;
+    text-align: center;
+}
+
+.line {
+    width: 115vh;
+    height: 2px;
+    background: rgb(41, 40, 40);
+    margin: auto;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    margin-bottom: 2%;
+    width: 90%;
+}
+
+.author {
+    color: rgb(41, 40, 40);
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.icons {
+    display: flex;
+    gap: 40px;
+
+    .twitterX {
+        cursor: pointer;
+        height: 25px;
+    }
+    .facebook {
+        cursor: pointer;
+        height: 25px;
+    }
+}
+
+.footer {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    padding: auto;
+}
